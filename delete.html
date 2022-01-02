@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>STUDENTS MANAGEMENT SYSTEM</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    section {
+        /* background-color: blueviolet; */
+        background-image: url('images/cap.jpg');
+        background-size: cover;
+        height: 660px;
+        width: 100%;
+    }
+
+    html {
+        font-size: 62.5%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .header {
+        border-bottom: 1px solid #E2E8F0;
+    }
+
+    
+
+    
+
+    /* start home page css */
+    .topic {
+        text-align: center;
+        /* margin: 12px 5px; */
+        padding: 55px 3px;
+        color: #fff;
+        font-size: 35px;
+        margin: -9px 0px;
+        /* background-color: aquamarine; */
+    }
+
+    .admin {
+        font-size: 18px;
+        float: right;
+        margin: 10px 18px;
+        padding: 6px 9px;
+        border: 2px solid black;
+        border-radius: 7px;
+        background-color: #44d529;
+    }
+
+    .btn {
+        color: black;
+    }
+
+    #top {
+        text-align: center;
+        font-size: 37px;
+        margin: 1px 73px;
+        padding: 12px 2px;
+        color: #fff;
+
+    }
+
+    #form {
+        text-align: center;
+    }
+
+    .form1 {
+        /* width: 330px;
+    height: 50px;
+    border: 1px solid; */
+        width: 330px;
+        height: 50px;
+        border: 1px solid;
+        text-align: center;
+        font-weight: bold;
+        color: black;
+        font-size: 19px;
+    }
+
+    #span {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .btn-info {
+        border: 1px solid;
+        margin: 2px 2px;
+        padding: 2px 2px;
+        font-size: 18px;
+    }
+
+    .bottun {
+        text-align: center;
+        margin-left: 30px;
+        padding: 7px 10px;
+        border: 2px solid black;
+        font-size: 18px;
+        border-radius: 7px;
+        background: linear-gradient(
+45deg, #b927d4, #d0131300);
+    }
+
+    #table1 {
+        /* text-align: center; */
+        font-size: 31px;
+        padding: 42px 51px;
+        color: #fff;
+    }
+
+    .name1 {
+        padding: 31px 15px;
+    }
+
+    .name2 {
+        padding: 12px 16px;
+    }
+
+    .name3 {
+        padding: 12px 20px;
+    }
+
+    .name4 {
+        padding: 12px 17px;
+    }
+
+    .name5 {
+        padding: 12px 38px;
+    }
+
+    .name6 {
+        padding: 12px 21px;
+    }
+
+    .name7 {
+        padding: 12px 82px;
+    }
+
+    #head3 {
+        border: 2px solid;
+    margin: 230px 465px;
+    padding: 16px 118px;
+    width: 432px;
+    border-radius: 15px;
+    background: linear-gradient(
+45deg, #b927d4, #d0131300);
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    }
+    #hbtn {
+    float: left;
+    font-size: 18px;
+    margin: 30px 11px;
+    padding: 8px 14px;
+    border: 2px solid black;
+    border-radius: 7px;
+    /* background-color: #44d529; */
+    text-decoration: none;
+    background: beige;
+}
+</style>
+
+<body>
+
+    <section>
+       <h2>
+            <span><a href="admin.html" id="hbtn">Admin</a></span>
+        </h2>
+        <div class="home">
+
+            <div class="col-md-12 jumbotron">
+                <h2 class="topic">
+                    DELETE STUDENT DETAIL
+                </h2>
+            </div>
+            <!-- <div class="admin">
+                <a href="login.html" class="btn">Admin Login</a>
+            </div> -->
+        </div>
+
+        <div class="topic1">
+            <form id="form">
+                <div class="search">
+                    <input class="form1" type="text" name="roll" placeholder="Enter Roll Number">
+                    <span id="span">OR/AND<span>
+                            <select name="standard" class="btn-info">
+                                <option>SELECT YEAR</option>
+                                <option>1st Year</option>
+                                <option>2nd Year</option>
+                                <option>3rd Year</option>
+                                <option>4th Year</option>
+                            </select>
+                            <input class="bottun" type="submit" name="show" value="SHOW INFO">
+                </div>
+            </form>
+        </div>
+        <table>
+            <tr id="table1">
+                <th class="name1">Roll No.</th>
+                <th class="name2">YEAR</th>
+                <th class="name3">Full Name</th>
+                <th class="name4">Mobile NO.</th>
+                <th class="name5">Email ID</th>
+                <th class="name6">Branch.</th>
+                <th class="name7">Profile Pic</th>
+            </tr>
+        </table>
+        <div>
+            <h3 id="head3">DELETE STUDENT DETAIL</h3>
+        </div>
+    </section>
+</body>
+
+</html>

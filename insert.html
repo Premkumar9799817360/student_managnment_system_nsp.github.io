@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>login</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial';
+        background: linear-gradient(45deg, black);
+    }
+
+    .login {
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: linear-gradient(45deg, #807dae, #a22a2a00);
+        border-radius: 15px;
+
+    }
+
+    h1 {
+
+        text-align: center;
+        color: black;
+        padding: -4px;
+        font-size: 35px;
+
+    }
+
+    label {
+        color: #08ffd1;
+        font-size: 17px;
+    }
+
+    #Uname {
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        padding-left: 8px;
+    }
+
+    #Pass {
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        padding-left: 8px;
+
+    }
+
+    #log {
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 17px;
+        padding-left: 7px;
+        color: blue;
+        cursor: pointer;
+
+
+    }
+
+    span {
+        color: white;
+        font-size: 17px;
+    }
+
+    a {
+        float: right;
+        background-color: grey;
+    }
+
+    #hbtn {
+        float: left;
+        font-size: 18px;
+        margin: 30px 11px;
+        padding: 8px 14px;
+        border: 2px solid black;
+        border-radius: 7px;
+        /* background-color: #44d529; */
+        text-decoration: none;
+    }
+
+    #hbtn:hover {
+        color: rgb(32, 15, 182);
+        background-color: rgb(103, 83, 121);
+    }
+
+    .form-group1 {
+        margin: 2px 2px;
+    }
+
+    #Uname1 {
+        margin: 1px 8px;
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        padding-left: 8px;
+    }
+
+    #Uname2 {
+        margin: 1px 17px;
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        padding-left: 8px;
+    }
+
+    .form-group3 {
+        margin: 0px -18px;
+    }
+
+    .form-group4 {
+        margin: 1px -8px
+    }
+
+    #log {
+        margin: 5px 64px;
+    }
+
+    #mains {
+        background-image: url('images/image2.jpg');
+        width: 1352px;
+        height: 640px;
+        margin: 0px 0px;
+        padding: 2px 1px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .login {
+            width: 382px;
+            overflow: hidden;
+            margin: auto;
+            margin: 20 0 0 450px;
+            padding: 80px;
+            background: linear-gradient(45deg, #807dae, #a22a2a00);
+            border-radius: 15px;
+
+        }
+
+        h1 {
+
+            text-align: center;
+            color: black;
+            padding: -4px;
+            font-size: 35px;
+
+        }
+
+        label {
+            color: #08ffd1;
+            font-size: 17px;
+        }
+
+        #Uname {
+            width: 264px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+
+        #Pass {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px;
+
+        }
+
+        #log {
+            width: 220px;
+            height: 30px;
+            border: none;
+            border-radius: 17px;
+            padding-left: 2px;
+            color: blue;
+            cursor: pointer;
+            margin: 2px 24px;
+
+        }
+
+        span {
+            color: white;
+            font-size: 17px;
+        }
+
+        a {
+            float: right;
+            background-color: grey;
+        }
+
+        #hbtn {
+            float: left;
+            font-size: 18px;
+            margin: 30px 11px;
+            padding: 8px 14px;
+            border: 2px solid black;
+            border-radius: 7px;
+            /* background-color: #44d529; */
+            text-decoration: none;
+        }
+
+        #hbtn:hover {
+            color: rgb(32, 15, 182);
+            background-color: rgb(103, 83, 121);
+        }
+
+        .form-group1 {
+            margin: 2px 2px;
+        }
+
+        #Uname1 {
+            margin: 1px 8px;
+            width: 255px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px
+        }
+
+        #Uname2 {
+            margin: 1px 17px;
+            width: 252px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+
+        .form-group3 {
+            margin: 0px -18px;
+        }
+
+        .form-group4 {
+            margin: 1px -8px
+        }
+
+        #log {
+            margin: 5px 64px;
+        }
+
+        #mains {
+            background-image: url('images/image2.jpg');
+            width: 1352px;
+            height: 640px;
+            margin: 0px 0px;
+            padding: 2px 1px;
+        }
+
+        .login {
+            width: 382px;
+            overflow: hidden;
+            margin: auto;
+            margin: 20 0 0 450px;
+            padding: 80px;
+            background: linear-gradient(45deg, #807dae, #a22a2a00);
+            border-radius: 15px;
+
+        }
+
+        #login {
+            width: 300px;
+        }
+
+    }
+</style>
+
+<body>
+    <section id="mains">
+
+        <h2>
+            <span><a href="admin.html" id="hbtn">Admin</a></span>
+        </h2>
+
+        <h1>INSERT STUDENT DETAIL</h1><br>
+        <div class="login" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <form id="login">
+
+                <div class="form-group">
+                    Roll No:
+                    <input type="text" id="Uname" name="roll" placeholder="Enter Roll No."><br><br>
+                </div>
+                <div class="form-group1">
+                    Name:
+                    <input type="text" id="Uname1" name="fullname" placeholder="full name" required><br><br>
+                </div>
+                <div class="form-group2">
+                    City:
+                    <input type="text" id="Uname2" name="city" placeholder="Enter City" required><br><br>
+                </div>
+                <div class="form-group3">
+
+                    Phone No.:<input type="text" id="Uname" name="pphone" placeholder="Enter Parent Phone No."
+                        required><br><br>
+                </div>
+                <div class="form-group4">
+
+                    Standard:<input type="number" id="Uname" name="standard" placeholder="Enter Student Standard"
+                        required><br><br>
+                </div>
+
+                <div class="form-group">
+
+                    Image:<input type="file" id="Uname" name="simg" required><br><br>
+                </div>
+
+                <button type="submit" name="submit" id="log">INSERT</button>
+            </form>
+        </div>
+    </section>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

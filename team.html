@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+        #hed {
+            text-align: center;
+        }
+
+        hr {
+            width: 20%;
+            text-align: center;
+        }
+
+        P {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #pre {
+            display: flex;
+            margin: 15px 11px;
+            padding: 4px 110px;
+            grid-gap: 89px;
+        }
+
+        #name {
+            text-align: center;
+            font-size: 20px;
+            color: white;
+            background-color: black;
+            padding: 2px 3px;
+            margin: 1px 0px;
+        }
+        #pic{
+width: 300px;
+height: 300px;
+transition: width 2s height 4s;
+        }
+        #pic:hover{
+     border-radius: 50%;
+        }
+
+        @media only screen and (max-width: 768px) {
+            #hed {
+                text-align: center;
+                font-size: 20px;
+            }
+
+            hr {
+                width: 24%;
+                text-align: center;
+            }
+
+            P {
+
+                font-size: 15px;
+                font-weight: bold;
+                margin: 2px 3px;
+                padding: 2px 30px;
+            }
+
+            #pre {
+
+                display: contents;
+                margin: 15px 5px;
+                padding: 4px 25px;
+                grid-gap: 89px;
+                text-align: center;
+            }
+
+            #name {
+                text-align: center;
+                font-size: 20px;
+                color: white;
+                background-color: black;
+                padding: 2px 3px;
+                margin: 1px 0px;
+            }
+
+            #pic {
+                width: 250px;
+                height: 250px;
+                transition: width 2s height 4s;
+            }
+            #pic:hover{
+     border-radius: 50%;
+        }
+            .pk {
+                width: 248px;
+                padding: 8px 3px;
+                text-align: center;
+                margin: 2px 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="hed">Team Member</h1>
+    <hr>
+    <P>My Self prem kumar (term leader). we are currently pursuing B.Tech from Poornima group of
+        institutions Jaipur. We have completed 12th class with 81% (prem kumar),65%(Harsh Jaiswal) and 60%(vivek sharma)
+        we have completed computer Diploma.we created this project with all team members. First thing we planned how
+        created student managnment system project.
+        we gathered requirement analysis for this project. we used many technology like html,css,javascript and
+        bootstrap etc. </P>
+    <div id="pre">
+        <div class="pk">
+            <img src="images/prem.jpg" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" alt="Pineapple" id="pic">
+            <p id="name">Prem Kumar</p>
+        </div>
+        <div class="pk">
+            <img src="images/harshjaiwal.jpeg" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" alt="Pineapple" id="pic">
+            <p id="name">Harsh jaiswal</p>
+        </div>
+        <div class="pk">
+            <img src="images/vivek sharma.jpeg" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" alt="Pineapple" id="pic">
+            <p id="name">Vivek Sharma</p>
+        </div>
+    </div>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>

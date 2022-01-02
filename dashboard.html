@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Admin Dashboard</title>
+</head>
+<style>
+    body {
+        /* background-color: darkmagenta; */
+        background-image: url('images/sms2.jpg');
+        background-size: cover;
+        height: 590px;
+        width: 100%;
+    }
+
+    #head {
+        text-align: center;
+        font-weight: bold;
+        margin: 20px 2px;
+        font-size: 50px;
+    }
+
+    .main {
+        /* text-align: center;
+        font-size: 23px;
+        border: 2px solid black;
+        border-radius: 4px;
+        margin: 55px 0px;
+        background-color: darkslateblue; */
+
+        text-align: center;
+        font-size: 23px;
+        /* border: 2px solid black; */
+        /* border-radius: 4px; */
+        margin: 70px 235px;
+    }
+
+    #head1 {
+        border: 2px solid;
+        margin: 31px 223px;
+        padding: 7px 3px;
+        width: 412px;
+        border-radius: 15px;
+        background: linear-gradient(45deg, #807dae, #a22a2a00);
+        transition: width 2s height 4s;
+    }
+
+    #head2 {
+        border: 2px solid;
+        margin: 31px 223px;
+        padding: 7px 3px;
+        width: 412px;
+        border-radius: 15px;
+        background: linear-gradient(45deg, #807dae, #a22a2a00);
+    }
+
+    #head3 {
+        border: 2px solid;
+        margin: 31px 223px;
+        padding: 7px 3px;
+        width: 412px;
+        border-radius: 15px;
+        background: linear-gradient(45deg, #807dae, #a22a2a00);
+    }
+
+    .event {
+        text-decoration: none;
+        color: black;
+      
+    }
+    /* #head1:hover{
+/* border-radius: 50%;
+ */
+ /* width: 500px; */
+ /* height: 200px; */
+
+</style>
+
+<body>
+    <h1 id="head">WELCOME TO ADMIN DASHBOARD</h1>
+    <div class="main">
+        <a href="insert.html" class="event">
+            <h3 id="head1" data-aos="zoom-in">INSERT STUDENT DETAIL</h3>
+        </a>
+        <a href="update.html" class="event">
+            <h3 id="head2" data-aos="zoom-in">UPDATE STUDENT DETAIL</h3>
+        </a>
+        <a href="delete.html" class="event">
+            <h3 id="head3" data-aos="zoom-in">DELETE STUDENT DETAIL</h3>
+        </a>
+    </div>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
+<!-- transition: width 2s height 4s;
+}
+#pic:hover{
+border-radius: 50%;
+} -->

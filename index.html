@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rampart+One&family=Readex+Pro:wght@200&family=Tajawal:wght@200&display=swap"
+ rel="stylesheet">
+    <title>STUDENTS MANAGEMENT SYSTEM</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img id="logo" src="images/logo1.jpg">
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+    
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+             
+                </li>
+                <li class="nav-item">
+                    <a href="admin.html" class="nav-link">Admin</a>
+               
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <!-- start home (main) page  -->
+    <section>
+        <div class="op">
+            <!-- <img id="imag" src="sms1.jpg"> -->
+        </div>
+        <div class="home">
+
+            <div class="col-md-12 jumbotron">
+                <h2 class="topic">
+                    WELCOME TO STUDENT MANAGEMENT SYSTEM
+                </h2>
+            </div>
+            <div class="admin">
+                <a href="admin.html" class="btn">Admin Login</a>
+            </div>
+        </div>
+
+        <div class="topic1">
+            <h2 id="top">Student's information</h2>
+            <form id="form">
+                <div class="search">
+                    <input class="form1" type="text" name="roll" placeholder="Enter Roll Number">
+                    <span id="span">OR/AND<span>
+                            <select name="standard" class="btn-info">
+                                <option>SELECT YEAR</option>
+                                <option>1st Year</option>
+                                <option>2nd Year</option>
+                                <option>3rd Year</option>
+                                <option>4th Year</option>
+                            </select>
+                            <input class="bottun" type="submit" name="show" value="SHOW INFO">
+                </div>
+            </form>
+        </div>
+        <table>
+            <tr id="table1">
+                <th class="name1">Roll No.</th>
+                <th class="name2">YEAR</th>
+                <th class="name3">Full Name</th>
+                <th class="name4">Mobile NO.</th>
+                <th class="name5">Email ID</th>
+                <th class="name6">Branch.</th>
+                <th class="name7">Profile Pic</th>
+            </tr>
+    </section>
+</body>
+
+</html>

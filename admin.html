@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial';
+        /* background-image: repeating-linear-gradient(45deg, red , 40deg, black); */
+        /* background-color:#6abadeba;   */
+        /* background-image: url('sms3.jpg'); */
+    }
+    section{
+        background-image: url('images/sms3.jpg');
+    width: 100%;
+    height: 660px;
+    }
+    .login {
+        width: 354px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    /* background: #23463f; */
+    border-radius: 20px;
+    padding: 3px 42px;
+    margin: 14px 517px;
+
+    }
+
+    h2 {
+        text-align: center;
+    color: #161819;
+    padding: -4px;
+    padding: 17px 5px;
+    margin: -2px 8px;
+    font-size: 50px;
+    }
+
+    label {
+        color: black;
+    font-size: 27px;
+    margin: 47px 6px;
+    padding: 6px 94px;
+    }
+
+    #Uname {
+        width: 310px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8px;
+    margin: 6px 3px;
+    }
+
+    #Pass {
+        width: 311px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8px;
+
+    }
+
+    #log {
+        /* width: 316px;
+    height: 40px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: black;
+    font-size: 20px;
+    cursor: pointer; */
+
+    width: 306px;
+    height: 14px;
+    border: none;
+    border-radius: 12px;
+    padding-left: 7px 0px;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    margin: 4px 37px; 
+
+    }
+
+    span {
+       
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+    a {
+        float: right;
+    /* background-color: grey; */
+    color: black;
+    font-size: 18px;
+    }
+
+    #hbtn {
+    font-size: 24px;
+    margin: 23px -6px;
+    padding: 7px 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: #edf4eb;
+    text-decoration: none;
+    float: left;
+    }
+    .text{
+        text-align: center;
+    margin: 16px 5px;
+    padding: 14px 3px;
+    }
+</style>
+
+<body>
+    
+    <section>
+        <h2>
+            <span><a href="index.html" id="hbtn">HOME</a></span>
+        </h2>
+        <h2>Admin Login</h2><br>
+        <div class="login">
+            <form id="login">
+                <label><b>Admin ID
+                    </b>
+                </label>
+                <input type="text" name="Uname" id="Uname" placeholder="Admin id">
+                <br><br>
+                <label><b>Password
+                    </b>
+                </label>
+                <input type="Password" name="Pass" id="Pass" placeholder="Password">
+                <br><br>
+                <a href="dashboard.html" type="submit" class="text" id="log">Log In Here</a>
+                <!-- <input type="submit" name="log" id="log" value="Log In Here"> -->
+                <br><br>
+                <input type="checkbox" id="check">
+                <span>Remember me</span>
+                <br><br>
+                 <a href="#">Password Forgot</a>
+            </form>
+    </section>
+</body>
+
+</html>
